@@ -30,3 +30,23 @@ Capture
 RecordFile
 sdklog
 target
+
+# Local tooling and runtime artifacts
+.tools/
+logs/
+
+# Service wrappers and local scripts
+run-webhook-service.cmd
+*.local.cmd
+*.local.ps1
+
+# Environment and secret files
+.env
+.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks

@@ -1,0 +1,756 @@
+﻿C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1747: 	public String getDoorOpenMethod() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1748: 		return bundle.getString("DOOROPEN_METHOD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1985: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_UNKNOWN:   // 未知
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1988: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_NORMAL:   // 正常
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1991: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_LOSE:   // 挂失
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1994: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_LOGOFF:   // 注销
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:1997: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_FREEZE:   // 冻结
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2000: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_ARREARAGE:   // 欠费
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2003: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_OVERDUE:  // 逾期
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2006: 			case NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_PREARREARAGE:  // 预欠费
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2024: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_UNKNOWN;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2027: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_NORMAL;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2030: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_LOSE;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2033: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_LOGOFF;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2036: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_FREEZE;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2039: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_ARREARAGE;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2042: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_OVERDUE;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2045: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_PREARREARAGE;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2048: 				status = NET_ACCESSCTLCARD_STATE.NET_ACCESSCTLCARD_STATE_UNKNOWN;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2100: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_UNKNOWN:  // 未知
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2103: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_GENERAL:  // 一般卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2106: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_VIP:      // VIP卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2109: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_GUEST:    // 来宾卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2112: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_PATROL:   // 巡逻卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2115: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_BLACKLIST: // 黑名单卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2118: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_CORCE:     // 胁迫卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2121: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_POLLING:   // 巡检卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2124: 			case NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_MOTHERCARD: // 母卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2143: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_UNKNOWN;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2146: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_GENERAL;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2149: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_VIP;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2152: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_GUEST;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2155: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_PATROL;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2158: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_BLACKLIST;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2161: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_CORCE;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2164: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_POLLING;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2167: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_MOTHERCARD;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2170: 				type = NET_ACCESSCTLCARD_TYPE.NET_ACCESSCTLCARD_TYPE_UNKNOWN;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2221: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_UNKNOWN:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2222: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_UNKNOWN");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2224: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_PWD_ONLY:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2225: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_PWD_ONLY");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2227: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2228: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2230: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_FIRST:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2231: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_FIRST");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2233: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_PWD_FIRST:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2234: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_PWD_FIRST");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2236: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_REMOTE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2237: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_REMOTE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2239: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_BUTTON:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2240: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_BUTTON");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2242: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2243: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2245: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_PWD_CARD_FINGERPRINT:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2246: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_PWD_CARD_FINGERPRINT");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2248: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_PWD_FINGERPRINT:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2249: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_PWD_FINGERPRINT");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2251: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_FINGERPRINT:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2252: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_FINGERPRINT");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2254: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_PERSONS:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2255: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_PERSONS");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2257: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_KEY:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2258: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_KEY");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2260: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_COERCE_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2261: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_COERCE_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2263: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_QRCODE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2264: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_QRCODE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2266: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACE_RECOGNITION:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2267: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACE_RECOGNITION");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2269: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2270: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2272: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD_AND_IDCARD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2273: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD_AND_IDCARD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2275: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_BLUETOOTH:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2276: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_BLUETOOTH");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2278: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CUSTOM_PASSWORD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2279: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CUSTOM_PASSWORD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2281: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_USERID_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2282: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_USERID_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2284: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACE_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2285: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACE_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2287: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2288: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2290: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2291: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2293: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2294: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2296: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACE_OR_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2297: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACE_OR_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2299: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2300: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2302: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2303: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2305: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2306: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2308: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2309: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2311: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_FACE_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2312: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_FACE_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2314: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FACE_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2315: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FACE_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2317: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FINGERPRINT_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2318: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FINGERPRINT_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2320: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_AND_PWD_AND_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2321: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_AND_PWD_AND_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2323: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_FACE_OR_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2324: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_FACE_OR_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2326: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FACE_OR_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2327: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FACE_OR_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2329: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT_OR_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2330: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT_OR_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2332: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FINGERPRINT_AND_FACE_AND_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2333: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FINGERPRINT_AND_FACE_AND_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2335: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT_OR_FACE_OR_PWD:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2336: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT_OR_FACE_OR_PWD");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2338: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACEIPCARDANDIDCARD_OR_CARD_OR_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2339: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACEIPCARDANDIDCARD_OR_CARD_OR_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2341: 			case NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD_OR_CARD_OR_FACE:
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2342: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD_OR_CARD_OR_FACE");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\common\Res.java:2345: 				openMethods = bundle.getString("NET_ACCESS_DOOROPEN_METHOD_UNKNOWN");
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:24: import main.java.com.netsdk.demo.module.AttendanceModule.AccessEventInfo;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:26: import main.java.com.netsdk.lib.NetSDKLib.NET_ACCESS_DOOROPEN_METHOD;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:268: 			columnNames.add(Res.string().getDoorOpenMethod()); 	// 开门方式
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:307: 		public void insertEvent(AccessEventInfo accessEventInfo) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:308: 			if (accessEventInfo == null) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:312: 			tableModel.insertRow(0, convertEventData(accessEventInfo));
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:322: 		private Vector<String> convertEventData(AccessEventInfo accessEventInfo) {    
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:325: 		    vector.add(accessEventInfo.userId);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:326: 		    vector.add(accessEventInfo.cardNo);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:327: 		    vector.add(accessEventInfo.eventTime.replace("/", "-"));
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:328: 		    String openDoor = openDoorMethodMap.get(accessEventInfo.openDoorMethod);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:329: 		    if (openDoor == null) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:330: 		    	openDoor = Res.string().getUnKnow();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:332: 		    vector.add(openDoor);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:341:     private static HashMap<Integer, String> openDoorMethodMap = new HashMap<Integer, String>() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:346:     		put(NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT, Res.string().getFingerPrint());
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\AttendanceShowPanel.java:347:     		put(NET_ACCESS_DOOROPEN_METHOD.NET_ACCESS_DOOROPEN_METHOD_CARD, Res.string().getCard());
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:21: import main.java.com.netsdk.demo.module.AttendanceModule.AccessEventInfo;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:100: 	            case NetSDKLib.EVENT_IVS_ACCESS_CTL:   // 门禁事件
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:101: 	            	DEV_EVENT_ACCESS_CTL_INFO event = new DEV_EVENT_ACCESS_CTL_INFO();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:103: 	            	AccessEventInfo accessEvent = new AccessEventInfo();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:104: 	            	accessEvent.userId = new String(event.szUserID).trim();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:105: 	            	accessEvent.cardNo = new String(event.szCardNo).trim();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:106: 	            	accessEvent.eventTime = event.UTC.toStringTime();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:107: 	            	accessEvent.openDoorMethod = event.emOpenMethod;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:109: 	                	eventQueue.postEvent(new AccessEvent(target, accessEvent));
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:123: 	class AccessEvent extends AWTEvent {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:129: 		private AccessEventInfo accessEvent;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:131: 		public AccessEvent(Object target, AccessEventInfo accessEvent) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:133: 			this.accessEvent = accessEvent;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:136: 		public AccessEventInfo getAccessEventInfo() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:137: 			return this.accessEvent;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:143:         if ( event instanceof AccessEvent) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:144:         	AccessEventInfo accessEventInfo = ((AccessEvent)event).getAccessEventInfo();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java:145:         	eventShowPanel.insertEvent(accessEventInfo);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\AutoRegister\AutoRegister.java:337: 	@SuppressWarnings("static-access")
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\CardManegerDialog.java:296: 					NET_RECORDSET_ACCESS_CTL_CARD[] pstRecord = GateModule.findNextCard(nFindCount);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:426: 			if(dwAlarmType == NetSDKLib.EVENT_IVS_ACCESS_CTL) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:427: 				DEV_EVENT_ACCESS_CTL_INFO msg = new DEV_EVENT_ACCESS_CTL_INFO();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:447:  	            eventQueue.postEvent( new AccessEvent(target,
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:457: 	class AccessEvent extends AWTEvent {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:465: 		private DEV_EVENT_ACCESS_CTL_INFO msg = null;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:467: 		public AccessEvent(Object target,
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:469: 						   DEV_EVENT_ACCESS_CTL_INFO msg) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:479: 		public DEV_EVENT_ACCESS_CTL_INFO getAccessInfo() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:486: 		if (event instanceof AccessEvent) {  // 门禁事件处理
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:487: 			AccessEvent ev = (AccessEvent) event;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\frame\Gate\Gate.java:490: 	        DEV_EVENT_ACCESS_CTL_INFO msg = ev.getAccessInfo();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\AttendanceModule.java:417: 		boolean bRet = LoginModule.netsdk.CLIENT_ControlDeviceEx(LoginModule.m_hLoginHandle, NetSDKLib.CtrlType.CTRLTYPE_CTRL_CAPTURE_FINGER_PRINT, stuCollection.getPointer(), null, 5000);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\AttendanceModule.java:419: 			System.err.printf("CLIENT_ControlDeviceEx CAPTURE_FINGER_PRINT Failed!" + ToolKits.getErrorCodePrint());
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\AttendanceModule.java:469: 	public static class AccessEventInfo {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\AttendanceModule.java:473:     	public int openDoorMethod;	// 开门方式
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\DeviceControlModule.java:5: import main.java.com.netsdk.lib.NetSDKLib.CtrlType;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\DeviceControlModule.java:30:         if (!LoginModule.netsdk.CLIENT_ControlDevice(LoginModule.m_hLoginHandle, CtrlType.CTRLTYPE_CTRL_REBOOT, null, 3000)) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\DeviceControlModule.java:31:         	System.err.println("CLIENT_ControlDevice Failed!" + ToolKits.getErrorCodePrint());
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:74: 		NET_RECORDSET_ACCESS_CTL_CARD accessCardInfo = new NET_RECORDSET_ACCESS_CTL_CARD();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:77: 		System.arraycopy(cardNo.getBytes(), 0, accessCardInfo.szCardNo, 0, cardNo.getBytes().length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:80: 		System.arraycopy(userId.getBytes(), 0, accessCardInfo.szUserID, 0, userId.getBytes().length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:84: 			System.arraycopy(cardName.getBytes("GBK"), 0, accessCardInfo.szCardName, 0, cardName.getBytes("GBK").length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:90: 		System.arraycopy(cardPwd.getBytes(), 0, accessCardInfo.szPsw, 0, cardPwd.getBytes().length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:93: 		accessCardInfo.nDoorNum = 2; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:94: 		accessCardInfo.sznDoors[0] = 0;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:95: 		accessCardInfo.sznDoors[1] = 1;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:96: 		accessCardInfo.nTimeSectionNum = 2; 	  // 与门数对应
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:97: 		accessCardInfo.sznTimeSectionNo[0] = 255; // 表示第一个门全天有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:98: 		accessCardInfo.sznTimeSectionNo[1] = 255; // 表示第二个门全天有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:101: 		accessCardInfo.emStatus = cardStatus;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:104: 		accessCardInfo.emType = cardType;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:107: 		accessCardInfo.nUserTime = useTimes;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:110: 		accessCardInfo.bFirstEnter = isFirstEnter;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:113: 		accessCardInfo.bIsValid = isValid;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:117: 		accessCardInfo.stuValidStartTime.dwYear = Integer.parseInt(startTimes[0].split("-")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:118: 		accessCardInfo.stuValidStartTime.dwMonth = Integer.parseInt(startTimes[0].split("-")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:119: 		accessCardInfo.stuValidStartTime.dwDay = Integer.parseInt(startTimes[0].split("-")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:120: 		accessCardInfo.stuValidStartTime.dwHour = Integer.parseInt(startTimes[1].split(":")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:121: 		accessCardInfo.stuValidStartTime.dwMinute = Integer.parseInt(startTimes[1].split(":")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:122: 		accessCardInfo.stuValidStartTime.dwSecond = Integer.parseInt(startTimes[01].split(":")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:126: 		accessCardInfo.stuValidEndTime.dwYear = Integer.parseInt(endTimes[0].split("-")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:127: 		accessCardInfo.stuValidEndTime.dwMonth = Integer.parseInt(endTimes[0].split("-")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:128: 		accessCardInfo.stuValidEndTime.dwDay = Integer.parseInt(endTimes[0].split("-")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:129: 		accessCardInfo.stuValidEndTime.dwHour = Integer.parseInt(endTimes[1].split(":")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:130: 		accessCardInfo.stuValidEndTime.dwMinute = Integer.parseInt(endTimes[1].split(":")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:131: 		accessCardInfo.stuValidEndTime.dwSecond = Integer.parseInt(endTimes[1].split(":")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:137: 		insert.stuCtrlRecordSetInfo.emType = EM_NET_RECORD_TYPE.NET_RECORD_ACCESSCTLCARD;   // 记录集类型
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:138: 		insert.stuCtrlRecordSetInfo.pBuf = accessCardInfo.getPointer();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:140: 		accessCardInfo.write();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:142: 		boolean bRet = LoginModule.netsdk.CLIENT_ControlDevice(LoginModule.m_hLoginHandle, 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:143: 								   CtrlType.CTRLTYPE_CTRL_RECORDSET_INSERT, insert.getPointer(), 5000);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:145: 		accessCardInfo.read();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:179: 		NET_RECORDSET_ACCESS_CTL_CARD accessCardInfo = new NET_RECORDSET_ACCESS_CTL_CARD();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:181: 		accessCardInfo.nRecNo = recordNo;  
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:184: 		System.arraycopy(cardNo.getBytes(), 0, accessCardInfo.szCardNo, 0, cardNo.getBytes().length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:187: 		System.arraycopy(userId.getBytes(), 0, accessCardInfo.szUserID, 0, userId.getBytes().length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:191: 			System.arraycopy(cardName.getBytes("GBK"), 0, accessCardInfo.szCardName, 0, cardName.getBytes("GBK").length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:197: 		System.arraycopy(cardPwd.getBytes(), 0, accessCardInfo.szPsw, 0, cardPwd.getBytes().length);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:200: 		accessCardInfo.nDoorNum = 2; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:201: 		accessCardInfo.sznDoors[0] = 0;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:202: 		accessCardInfo.sznDoors[1] = 1;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:203: 		accessCardInfo.nTimeSectionNum = 2; 	  // 与门数对应
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:204: 		accessCardInfo.sznTimeSectionNo[0] = 255; // 表示第一个门全天有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:205: 		accessCardInfo.sznTimeSectionNo[1] = 255; // 表示第二个门全天有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:208: 		accessCardInfo.emStatus = cardStatus;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:211: 		accessCardInfo.emType = cardType;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:214: 		accessCardInfo.nUserTime = useTimes;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:217: 		accessCardInfo.bFirstEnter = isFirstEnter;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:220: 		accessCardInfo.bIsValid = isValid;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:224: 		accessCardInfo.stuValidStartTime.dwYear = Integer.parseInt(startTimes[0].split("-")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:225: 		accessCardInfo.stuValidStartTime.dwMonth = Integer.parseInt(startTimes[0].split("-")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:226: 		accessCardInfo.stuValidStartTime.dwDay = Integer.parseInt(startTimes[0].split("-")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:227: 		accessCardInfo.stuValidStartTime.dwHour = Integer.parseInt(startTimes[1].split(":")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:228: 		accessCardInfo.stuValidStartTime.dwMinute = Integer.parseInt(startTimes[1].split(":")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:229: 		accessCardInfo.stuValidStartTime.dwSecond = Integer.parseInt(startTimes[01].split(":")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:233: 		accessCardInfo.stuValidEndTime.dwYear = Integer.parseInt(endTimes[0].split("-")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:234: 		accessCardInfo.stuValidEndTime.dwMonth = Integer.parseInt(endTimes[0].split("-")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:235: 		accessCardInfo.stuValidEndTime.dwDay = Integer.parseInt(endTimes[0].split("-")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:236: 		accessCardInfo.stuValidEndTime.dwHour = Integer.parseInt(endTimes[1].split(":")[0]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:237: 		accessCardInfo.stuValidEndTime.dwMinute = Integer.parseInt(endTimes[1].split(":")[1]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:238: 		accessCardInfo.stuValidEndTime.dwSecond = Integer.parseInt(endTimes[1].split(":")[2]);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:244:     	update.emType = EM_NET_RECORD_TYPE.NET_RECORD_ACCESSCTLCARD;    // 记录集信息类型
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:245:     	update.pBuf = accessCardInfo.getPointer();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:247:     	accessCardInfo.write();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:249: 		boolean bRet = LoginModule.netsdk.CLIENT_ControlDevice(LoginModule.m_hLoginHandle, 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:250: 								   CtrlType.CTRLTYPE_CTRL_RECORDSET_UPDATE, update.getPointer(), 5000);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:252: 		accessCardInfo.read();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:273:     	msg.emType = EM_NET_RECORD_TYPE.NET_RECORD_ACCESSCTLCARD;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:277:     	boolean bRet = LoginModule.netsdk.CLIENT_ControlDevice(LoginModule.m_hLoginHandle, 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:278:     							   CtrlType.CTRLTYPE_CTRL_RECORDSET_REMOVE, msg.getPointer(), 5000);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:298: 		msg.emType = EM_NET_RECORD_TYPE.NET_RECORD_ACCESSCTLCARD;    // 门禁卡记录集信息类型
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:301:     	boolean bRet = LoginModule.netsdk.CLIENT_ControlDevice(LoginModule.m_hLoginHandle, 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:302:     					             CtrlType.CTRLTYPE_CTRL_RECORDSET_CLEAR, msg.getPointer(), 5000);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:482: 		NetSDKLib.FIND_RECORD_ACCESSCTLCARD_CONDITION findCondition = new NetSDKLib.FIND_RECORD_ACCESSCTLCARD_CONDITION();	
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:496: 		stIn.emType = NetSDKLib.EM_NET_RECORD_TYPE.NET_RECORD_ACCESSCTLCARD; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:522:     public static NET_RECORDSET_ACCESS_CTL_CARD[] findNextCard(int nFindCount) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:524: 		NET_RECORDSET_ACCESS_CTL_CARD[] pstRecord = new NET_RECORDSET_ACCESS_CTL_CARD[nFindCount];
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:526: 			pstRecord[i] = new NET_RECORDSET_ACCESS_CTL_CARD();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:554: 			NET_RECORDSET_ACCESS_CTL_CARD[] pstRecordEx = new NET_RECORDSET_ACCESS_CTL_CARD[stNextOut.nRetRecordNum];
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\GateModule.java:556: 				pstRecordEx[i] = new NET_RECORDSET_ACCESS_CTL_CARD();
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\TrafficEventModule.java:25: 		if (LoginModule.netsdk.CLIENT_ControlDeviceEx(LoginModule.m_hLoginHandle, NetSDKLib.CtrlType.CTRLTYPE_CTRL_OPEN_STROBE, openStrobe.getPointer(), null, 3000)) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\TrafficEventModule.java:43:         if (LoginModule.netsdk.CLIENT_ControlDeviceEx(LoginModule.m_hLoginHandle, NetSDKLib.CtrlType.CTRLTYPE_CTRL_CLOSE_STROBE, closeStrobe.getPointer(), null, 3000)) {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\demo\module\TrafficEventModule.java:61:     	boolean bRet = LoginModule.netsdk.CLIENT_ControlDeviceEx(LoginModule.m_hLoginHandle, NetSDKLib.CtrlType.CTRLTYPE_MANUAL_SNAP, snapParam.getPointer(), null, 5000);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:384:     public static final int NET_ALARM_ACCESS_CTL_NOT_CLOSE      = 0x3177;           // 门禁未关事件(对应结构体 ALARM_ACCESS_CTL_NOT_CLOSE_INFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:385:     public static final int NET_ALARM_ACCESS_CTL_BREAK_IN       = 0x3178;           // 闯入事件(对应结构体 ALARM_ACCESS_CTL_BREAK_IN_INFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:386:     public static final int NET_ALARM_ACCESS_CTL_EVENT          = 0x3181;           // 门禁事件(对应结构体 ALARM_ACCESS_CTL_EVENT_INFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:388:     public static final int NET_ALARM_ACCESS_CTL_STATUS         = 0x3185;           // 门禁状态事件(对应结构体 ALARM_ACCESS_CTL_STATUS_INFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:394:     public static final int NET_ALARM_ACCESS_CARD_OPERATE       = 0x31b0;           // 门禁卡数据操作事件(对应结构体ALARM_ACCESS_CARD_OPERATE_INFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:464:     public static final int EVENT_IVS_ACCESS_CTL                = 0x00000204;       // 门禁事件 (对应 DEV_EVENT_ACCESS_CTL_INFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:497:     public static final String CFG_CMD_ACCESS_EVENT             = "AccessControl";       // 门禁事件配置(对应 CFG_ACCESS_EVENT_INFO 数组)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:498:     public static final String CFG_CMD_ACCESSTIMESCHEDULE       = "AccessTimeSchedule";  // 门禁刷卡时间段(对应 CFG_ACCESS_TIMESCHEDULE_INFO) 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:691:     public static final int MAX_ACCESSDOOR_NUM                 = 128;              // 最大门数量 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:746:     public static final int CFG_MAX_ACCESS_CONTROL_ADDRESS_LEN = 64;			   // 最大的地址长度
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:752:     public static final int NET_CFG_MAX_CTRLTYPE_NUM     	   = 16;               // 最大道闸控制方式
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:882:     public static final int NET_DEVSTATE_ACCESS_LOCK_VER       = 0x1573;           // 获取门锁软件版本号(对应 NET_ACCESS_LOCK_VER)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:918:     public static final int NET_QUERY_WLAN_ACCESSPOINT                  = 0x19;                // 查询无线网络接入点信息,pInBuf=NET_IN_WLAN_ACCESSPOINT* , pOutBuf=NET_OUT_WLAN_ACCESSPOINT*
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:995:     public static final int MAX_ACCESSCONTROL_NUM               = 8;    // 最大门禁操作的组合数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:1063:     public static final int MAX_ACCESS_READER_NUM               = 32;   // 门禁单个门最大读卡器数量
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:1064:     public static final int MAX_ACCESSSUBCONTROLLER_NUM         = 64;   // 最大门禁分控器数量
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:1156:     public static final int MAX_ACCESS_FLOOR_NUM                = 64;   // 最大楼层数量
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:2078:         public byte                byRandomAccess;                 // 是否需要在查询过程中随意跳转,0-不需要,1-需要
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3120:     public static class EM_CFG_ACCESSCONTROLTYPE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3122:         public static final int EM_CFG_ACCESSCONTROLTYPE_NULL = 0;//不做操作
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3123:         public static final int EM_CFG_ACCESSCONTROLTYPE_AUTO = 1; //自动
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3124:         public static final int EM_CFG_ACCESSCONTROLTYPE_OPEN = 2; //开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3125:         public static final int EM_CFG_ACCESSCONTROLTYPE_CLOSE = 3; //关门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3126:         public static final int EM_CFG_ACCESSCONTROLTYPE_OPENALWAYS = 4; //永远开启
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3127:         public static final int EM_CFG_ACCESSCONTROLTYPE_CLOSEALWAYS = 5; //永远关闭
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3271:         public byte abAccessControlEn;//bool类型，取值0或1
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3272:         public byte abAccessControl;//bool类型，取值0或1
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3275:         public int bAccessControlEn;//门禁使能, BOOL类型，取值0或1
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3276:         public int dwAccessControl;//门禁组数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3277:         public int[] emAccessControlType = new int[MAX_ACCESSCONTROL_NUM];//门禁联动操作信息, 元素取值范围为EM_CFG_ACCESSCONTROLTYPE中的值
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3346:         public byte								abAccessControlEn;                              // 是否支持门禁控制使能 bool类型，取值0或1
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3347:         public byte								abAccessControl;                                // 是否支持门禁控制 bool类型，取值0或1
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3424:     	public int								bAccessControlEn;								// 门禁使能
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3425:     	public int								dwAccessControl;								// 门禁组数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:3426:     	public int[]							emAccessControlType = new int[MAX_ACCESSCONTROL_NUM];	// 门禁联动操作信息,详见EM_CFG_ACCESSCONTROLTYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6245:     // 控制类型，对应CLIENT_ControlDevice接口
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6246:     public static class CtrlType extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6248:         public static final int CTRLTYPE_CTRL_REBOOT = 0;//重启设备
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6249:         public static final int CTRLTYPE_CTRL_SHUTDOWN = CTRLTYPE_CTRL_REBOOT+1; //关闭设备
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6250:         public static final int CTRLTYPE_CTRL_DISK = CTRLTYPE_CTRL_SHUTDOWN+1; //硬盘管理
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6251:         public static final int CTRLTYPE_KEYBOARD_POWER =3;//网络键盘
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6252:         public static final int CTRLTYPE_KEYBOARD_ENTER = CTRLTYPE_KEYBOARD_POWER+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6253:         public static final int CTRLTYPE_KEYBOARD_ESC = CTRLTYPE_KEYBOARD_ENTER+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6254:         public static final int CTRLTYPE_KEYBOARD_UP = CTRLTYPE_KEYBOARD_ESC+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6255:         public static final int CTRLTYPE_KEYBOARD_DOWN = CTRLTYPE_KEYBOARD_UP+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6256:         public static final int CTRLTYPE_KEYBOARD_LEFT = CTRLTYPE_KEYBOARD_DOWN+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6257:         public static final int CTRLTYPE_KEYBOARD_RIGHT = CTRLTYPE_KEYBOARD_LEFT+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6258:         public static final int CTRLTYPE_KEYBOARD_BTN0 = CTRLTYPE_KEYBOARD_RIGHT+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6259:         public static final int CTRLTYPE_KEYBOARD_BTN1 = CTRLTYPE_KEYBOARD_BTN0+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6260:         public static final int CTRLTYPE_KEYBOARD_BTN2 = CTRLTYPE_KEYBOARD_BTN1+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6261:         public static final int CTRLTYPE_KEYBOARD_BTN3 = CTRLTYPE_KEYBOARD_BTN2+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6262:         public static final int CTRLTYPE_KEYBOARD_BTN4 = CTRLTYPE_KEYBOARD_BTN3+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6263:         public static final int CTRLTYPE_KEYBOARD_BTN5 = CTRLTYPE_KEYBOARD_BTN4+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6264:         public static final int CTRLTYPE_KEYBOARD_BTN6 = CTRLTYPE_KEYBOARD_BTN5+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6265:         public static final int CTRLTYPE_KEYBOARD_BTN7 = CTRLTYPE_KEYBOARD_BTN6+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6266:         public static final int CTRLTYPE_KEYBOARD_BTN8 = CTRLTYPE_KEYBOARD_BTN7+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6267:         public static final int CTRLTYPE_KEYBOARD_BTN9 = CTRLTYPE_KEYBOARD_BTN8+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6268:         public static final int CTRLTYPE_KEYBOARD_BTN10 = CTRLTYPE_KEYBOARD_BTN9+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6269:         public static final int CTRLTYPE_KEYBOARD_BTN11 = CTRLTYPE_KEYBOARD_BTN10+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6270:         public static final int CTRLTYPE_KEYBOARD_BTN12 = CTRLTYPE_KEYBOARD_BTN11+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6271:         public static final int CTRLTYPE_KEYBOARD_BTN13 = CTRLTYPE_KEYBOARD_BTN12+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6272:         public static final int CTRLTYPE_KEYBOARD_BTN14 = CTRLTYPE_KEYBOARD_BTN13+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6273:         public static final int CTRLTYPE_KEYBOARD_BTN15 = CTRLTYPE_KEYBOARD_BTN14+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6274:         public static final int CTRLTYPE_KEYBOARD_BTN16 = CTRLTYPE_KEYBOARD_BTN15+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6275:         public static final int CTRLTYPE_KEYBOARD_SPLIT = CTRLTYPE_KEYBOARD_BTN16+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6276:         public static final int CTRLTYPE_KEYBOARD_ONE = CTRLTYPE_KEYBOARD_SPLIT+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6277:         public static final int CTRLTYPE_KEYBOARD_NINE = CTRLTYPE_KEYBOARD_ONE+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6278:         public static final int CTRLTYPE_KEYBOARD_ADDR = CTRLTYPE_KEYBOARD_NINE+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6279:         public static final int CTRLTYPE_KEYBOARD_INFO = CTRLTYPE_KEYBOARD_ADDR+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6280:         public static final int CTRLTYPE_KEYBOARD_REC = CTRLTYPE_KEYBOARD_INFO+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6281:         public static final int CTRLTYPE_KEYBOARD_FN1 = CTRLTYPE_KEYBOARD_REC+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6282:         public static final int CTRLTYPE_KEYBOARD_FN2 = CTRLTYPE_KEYBOARD_FN1+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6283:         public static final int CTRLTYPE_KEYBOARD_PLAY = CTRLTYPE_KEYBOARD_FN2+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6284:         public static final int CTRLTYPE_KEYBOARD_STOP = CTRLTYPE_KEYBOARD_PLAY+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6285:         public static final int CTRLTYPE_KEYBOARD_SLOW = CTRLTYPE_KEYBOARD_STOP+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6286:         public static final int CTRLTYPE_KEYBOARD_FAST = CTRLTYPE_KEYBOARD_SLOW+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6287:         public static final int CTRLTYPE_KEYBOARD_PREW = CTRLTYPE_KEYBOARD_FAST+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6288:         public static final int CTRLTYPE_KEYBOARD_NEXT = CTRLTYPE_KEYBOARD_PREW+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6289:         public static final int CTRLTYPE_KEYBOARD_JMPDOWN = CTRLTYPE_KEYBOARD_NEXT+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6290:         public static final int CTRLTYPE_KEYBOARD_JMPUP = CTRLTYPE_KEYBOARD_JMPDOWN+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6291:         public static final int CTRLTYPE_KEYBOARD_10PLUS = CTRLTYPE_KEYBOARD_JMPUP+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6292:         public static final int CTRLTYPE_KEYBOARD_SHIFT = CTRLTYPE_KEYBOARD_10PLUS+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6293:         public static final int CTRLTYPE_KEYBOARD_BACK = CTRLTYPE_KEYBOARD_SHIFT+1; 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6294:         public static final int CTRLTYPE_KEYBOARD_LOGIN = CTRLTYPE_KEYBOARD_BACK+1;//新网络键盘功能
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6295:         public static final int CTRLTYPE_KEYBOARD_CHNNEL = CTRLTYPE_KEYBOARD_LOGIN+1;//切换视频通道
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6296:         public static final int CTRLTYPE_TRIGGER_ALARM_IN =100;//触发报警输入
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6297:         public static final int CTRLTYPE_TRIGGER_ALARM_OUT = CTRLTYPE_TRIGGER_ALARM_IN+1; //触发报警输出
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6298:         public static final int CTRLTYPE_CTRL_MATRIX = CTRLTYPE_TRIGGER_ALARM_OUT+1; //矩阵控制
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6299:         public static final int CTRLTYPE_CTRL_SDCARD = CTRLTYPE_CTRL_MATRIX+1; //SD卡控制(IPC产品)参数同硬盘控制
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6300:         public static final int CTRLTYPE_BURNING_START = CTRLTYPE_CTRL_SDCARD+1; //刻录机控制，开始刻录
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6301:         public static final int CTRLTYPE_BURNING_STOP = CTRLTYPE_BURNING_START+1; //刻录机控制，结束刻录
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6302:         public static final int CTRLTYPE_BURNING_ADDPWD = CTRLTYPE_BURNING_STOP+1; //刻录机控制，叠加密码(以'\0'为结尾的字符串，最大长度8位)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6303:         public static final int CTRLTYPE_BURNING_ADDHEAD = CTRLTYPE_BURNING_ADDPWD+1; //刻录机控制，叠加片头(以'\0'为结尾的字符串，最大长度1024字节，支持分行，行分隔符'\n')
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6304:         public static final int CTRLTYPE_BURNING_ADDSIGN = CTRLTYPE_BURNING_ADDHEAD+1; //刻录机控制，叠加打点到刻录信息(参数无)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6305:         public static final int CTRLTYPE_BURNING_ADDCURSTOMINFO = CTRLTYPE_BURNING_ADDSIGN+1; //刻录机控制，自定义叠加(以'\0'为结尾的字符串，最大长度1024字节，支持分行，行分隔符'\n')
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6306:         public static final int CTRLTYPE_CTRL_RESTOREDEFAULT = CTRLTYPE_BURNING_ADDCURSTOMINFO+1; //恢复设备的默认设置
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6307:         public static final int CTRLTYPE_CTRL_CAPTURE_START = CTRLTYPE_CTRL_RESTOREDEFAULT+1; //触发设备抓图
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6308:         public static final int CTRLTYPE_CTRL_CLEARLOG = CTRLTYPE_CTRL_CAPTURE_START+1; //清除日志
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6309:         public static final int CTRLTYPE_TRIGGER_ALARM_WIRELESS =200;//触发无线报警(IPC产品)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6310:         public static final int CTRLTYPE_MARK_IMPORTANT_RECORD = CTRLTYPE_TRIGGER_ALARM_WIRELESS+1; //标识重要录像文件
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6311:         public static final int CTRLTYPE_CTRL_DISK_SUBAREA = CTRLTYPE_MARK_IMPORTANT_RECORD+1; //网络硬盘分区
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6312:         public static final int CTRLTYPE_BURNING_ATTACH = CTRLTYPE_CTRL_DISK_SUBAREA+1; //刻录机控制，附件刻录.
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6313:         public static final int CTRLTYPE_BURNING_PAUSE = CTRLTYPE_BURNING_ATTACH+1; //刻录暂停
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6314:         public static final int CTRLTYPE_BURNING_CONTINUE = CTRLTYPE_BURNING_PAUSE+1; //刻录继续
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6315:         public static final int CTRLTYPE_BURNING_POSTPONE = CTRLTYPE_BURNING_CONTINUE+1; //刻录顺延
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6316:         public static final int CTRLTYPE_CTRL_OEMCTRL = CTRLTYPE_BURNING_POSTPONE+1; //报停控制
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6317:         public static final int CTRLTYPE_BACKUP_START = CTRLTYPE_CTRL_OEMCTRL+1; //设备备份开始
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6318:         public static final int CTRLTYPE_BACKUP_STOP = CTRLTYPE_BACKUP_START+1; //设备备份停止
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6319:         public static final int CTRLTYPE_VIHICLE_WIFI_ADD = CTRLTYPE_BACKUP_STOP+1; //车载手动增加WIFI配置
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6320:         public static final int CTRLTYPE_VIHICLE_WIFI_DEC = CTRLTYPE_VIHICLE_WIFI_ADD+1; //车载手动删除WIFI配置
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6321:         public static final int CTRLTYPE_BUZZER_START = CTRLTYPE_VIHICLE_WIFI_DEC+1; //蜂鸣器控制开始
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6322:         public static final int CTRLTYPE_BUZZER_STOP = CTRLTYPE_BUZZER_START+1; //蜂鸣器控制结束
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6323:         public static final int CTRLTYPE_REJECT_USER = CTRLTYPE_BUZZER_STOP+1; //剔除用户
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6324:         public static final int CTRLTYPE_SHIELD_USER = CTRLTYPE_REJECT_USER+1; //屏蔽用户
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6325:         public static final int CTRLTYPE_RAINBRUSH = CTRLTYPE_SHIELD_USER+1; //智能交通,雨刷控制
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6326:         public static final int CTRLTYPE_MANUAL_SNAP = CTRLTYPE_RAINBRUSH+1; //智能交通,手动抓拍(对应结构体MANUAL_SNAP_PARAMETER)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6327:         public static final int CTRLTYPE_MANUAL_NTP_TIMEADJUST = CTRLTYPE_MANUAL_SNAP+1; //手动NTP校时
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6328:         public static final int CTRLTYPE_NAVIGATION_SMS = CTRLTYPE_MANUAL_NTP_TIMEADJUST+1; //导航信息和短消息
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6329:         public static final int CTRLTYPE_CTRL_ROUTE_CROSSING = CTRLTYPE_NAVIGATION_SMS+1; //路线点位信息
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6330:         public static final int CTRLTYPE_BACKUP_FORMAT = CTRLTYPE_CTRL_ROUTE_CROSSING+1; //格式化备份设备
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6331:         public static final int CTRLTYPE_DEVICE_LOCALPREVIEW_SLIPT = CTRLTYPE_BACKUP_FORMAT+1; //控制设备端本地预览分割(对应结构体DEVICE_LOCALPREVIEW_SLIPT_PARAMETER)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6332:         public static final int CTRLTYPE_CTRL_INIT_RAID = CTRLTYPE_DEVICE_LOCALPREVIEW_SLIPT+1; //RAID初始化
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6333:         public static final int CTRLTYPE_CTRL_RAID = CTRLTYPE_CTRL_INIT_RAID+1; //RAID操作
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6334:         public static final int CTRLTYPE_CTRL_SAPREDISK = CTRLTYPE_CTRL_RAID+1; //热备盘操作
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6335:         public static final int CTRLTYPE_WIFI_CONNECT = CTRLTYPE_CTRL_SAPREDISK+1; //手动发起WIFI连接(对应结构体WIFI_CONNECT)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6336:         public static final int CTRLTYPE_WIFI_DISCONNECT = CTRLTYPE_WIFI_CONNECT+1; //手动断开WIFI连接(对应结构体WIFI_CONNECT)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6337:         public static final int CTRLTYPE_CTRL_ARMED = CTRLTYPE_WIFI_DISCONNECT+1; //布撤防操作
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6338:         public static final int CTRLTYPE_CTRL_IP_MODIFY = CTRLTYPE_CTRL_ARMED+1; //修改前端IP(对应结构体 NET_CTRL_IPMODIFY_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6339:         public static final int CTRLTYPE_CTRL_WIFI_BY_WPS = CTRLTYPE_CTRL_IP_MODIFY+1; //wps连接wifi(对应结构体NET_CTRL_CONNECT_WIFI_BYWPS)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6340:         public static final int CTRLTYPE_CTRL_FORMAT_PATITION = CTRLTYPE_CTRL_WIFI_BY_WPS+1; //格式化分区(对应结构体NET_FORMAT_PATITION)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6341:         public static final int CTRLTYPE_CTRL_EJECT_STORAGE = CTRLTYPE_CTRL_FORMAT_PATITION+1; //手动卸载设备(对应结构体NET_EJECT_STORAGE_DEVICE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6342:         public static final int CTRLTYPE_CTRL_LOAD_STORAGE = CTRLTYPE_CTRL_EJECT_STORAGE+1; //手动装载设备(对应结构体NET_LOAD_STORAGE_DEVICE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6343:         public static final int CTRLTYPE_CTRL_CLOSE_BURNER = CTRLTYPE_CTRL_LOAD_STORAGE+1; //关闭刻录机光驱门(对应结构体NET_CTRL_BURNERDOOR)一般需要等6
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6344:         public static final int CTRLTYPE_CTRL_EJECT_BURNER = CTRLTYPE_CTRL_CLOSE_BURNER+1; //弹出刻录机光驱门(对应结构体NET_CTRL_BURNERDOOR)一般需要等4秒
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6345:         public static final int CTRLTYPE_CTRL_CLEAR_ALARM = CTRLTYPE_CTRL_EJECT_BURNER+1; //消警(对应结构体NET_CTRL_CLEAR_ALARM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6346:         public static final int CTRLTYPE_CTRL_MONITORWALL_TVINFO = CTRLTYPE_CTRL_CLEAR_ALARM+1; //电视墙信息显示(对应结构体NET_CTRL_MONITORWALL_TVINFO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6347:         public static final int CTRLTYPE_CTRL_START_VIDEO_ANALYSE = CTRLTYPE_CTRL_MONITORWALL_TVINFO+1; //开始视频智能分析(对应结构体NET_CTRL_START_VIDEO_ANALYSE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6348:         public static final int CTRLTYPE_CTRL_STOP_VIDEO_ANALYSE = CTRLTYPE_CTRL_START_VIDEO_ANALYSE+1; //停止视频智能分析(对应结构体NET_CTRL_STOP_VIDEO_ANALYSE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6349:         public static final int CTRLTYPE_CTRL_UPGRADE_DEVICE = CTRLTYPE_CTRL_STOP_VIDEO_ANALYSE+1; //控制启动设备升级,由设备独立完成升级过程,不需要传输升级文件
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6350:         public static final int CTRLTYPE_CTRL_MULTIPLAYBACK_CHANNALES = CTRLTYPE_CTRL_UPGRADE_DEVICE+1; //切换多通道预览回放的通道(对应结构体NET_CTRL_MULTIPLAYBACK_CHANNALES)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6351:         public static final int CTRLTYPE_CTRL_SEQPOWER_OPEN = CTRLTYPE_CTRL_MULTIPLAYBACK_CHANNALES+1; //电源时序器打开开关量输出口(对应NET_CTRL_SEQPOWER_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6352:         public static final int CTRLTYPE_CTRL_SEQPOWER_CLOSE = CTRLTYPE_CTRL_SEQPOWER_OPEN+1; //电源时序器关闭开关量输出口(对应NET_CTRL_SEQPOWER_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6353:         public static final int CTRLTYPE_CTRL_SEQPOWER_OPEN_ALL = CTRLTYPE_CTRL_SEQPOWER_CLOSE+1; //电源时序器打开开关量输出口组(对应NET_CTRL_SEQPOWER_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6354:         public static final int CTRLTYPE_CTRL_SEQPOWER_CLOSE_ALL = CTRLTYPE_CTRL_SEQPOWER_OPEN_ALL+1; //电源时序器关闭开关量输出口组(对应NET_CTRL_SEQPOWER_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6355:         public static final int CTRLTYPE_CTRL_PROJECTOR_RISE = CTRLTYPE_CTRL_SEQPOWER_CLOSE_ALL+1; //投影仪上升(对应NET_CTRL_PROJECTOR_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6356:         public static final int CTRLTYPE_CTRL_PROJECTOR_FALL = CTRLTYPE_CTRL_PROJECTOR_RISE+1; //投影仪下降(对应NET_CTRL_PROJECTOR_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6357:         public static final int CTRLTYPE_CTRL_PROJECTOR_STOP = CTRLTYPE_CTRL_PROJECTOR_FALL+1; //投影仪停止(对应NET_CTRL_PROJECTOR_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6358:         public static final int CTRLTYPE_CTRL_INFRARED_KEY = CTRLTYPE_CTRL_PROJECTOR_STOP+1; //红外按键(对应NET_CTRL_INFRARED_KEY_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6359:         public static final int CTRLTYPE_CTRL_START_PLAYAUDIO = CTRLTYPE_CTRL_INFRARED_KEY+1; //设备开始播放音频文件(对应结构体NET_CTRL_START_PLAYAUDIO)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6360:         public static final int CTRLTYPE_CTRL_STOP_PLAYAUDIO = CTRLTYPE_CTRL_START_PLAYAUDIO+1; //设备停止播放音频文件
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6361:         public static final int CTRLTYPE_CTRL_START_ALARMBELL = CTRLTYPE_CTRL_STOP_PLAYAUDIO+1; //开启警号(对应结构体 NET_CTRL_ALARMBELL )
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6362:         public static final int CTRLTYPE_CTRL_STOP_ALARMBELL = CTRLTYPE_CTRL_START_ALARMBELL+1; //关闭警号(对应结构体 NET_CTRL_ALARMBELL )
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6363:         public static final int CTRLTYPE_CTRL_ACCESS_OPEN = CTRLTYPE_CTRL_STOP_ALARMBELL+1; //门禁控制-开门(对应结构体 NET_CTRL_ACCESS_OPEN)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6364:         public static final int CTRLTYPE_CTRL_SET_BYPASS = CTRLTYPE_CTRL_ACCESS_OPEN+1; //设置旁路功能(对应结构体NET_CTRL_SET_BYPASS)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6365:         public static final int CTRLTYPE_CTRL_RECORDSET_INSERT = CTRLTYPE_CTRL_SET_BYPASS+1; //添加记录，获得记录集编号(对应NET_CTRL_RECORDSET_INSERT_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6366:         public static final int CTRLTYPE_CTRL_RECORDSET_UPDATE = CTRLTYPE_CTRL_RECORDSET_INSERT+1; //更新某记录集编号的记录(对应 NET_CTRL_RECORDSET_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6367:         public static final int CTRLTYPE_CTRL_RECORDSET_REMOVE = CTRLTYPE_CTRL_RECORDSET_UPDATE+1; //根据记录集编号删除某记录(对应 NET_CTRL_RECORDSET_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6368:         public static final int CTRLTYPE_CTRL_RECORDSET_CLEAR = CTRLTYPE_CTRL_RECORDSET_REMOVE+1; //清除所有记录集信息(对应NET_CTRL_RECORDSET_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6369:         public static final int CTRLTYPE_CTRL_ACCESS_CLOSE = CTRLTYPE_CTRL_RECORDSET_CLEAR+1; //门禁控制-关门(对应结构体NET_CTRL_ACCESS_CLOSE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6370:         public static final int CTRLTYPE_CTRL_ALARM_SUBSYSTEM_ACTIVE_SET = CTRLTYPE_CTRL_ACCESS_CLOSE+1; //报警子系统激活设置(对应结构体NET_CTRL_ALARM_SUBSYSTEM_SETACTIVE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6371:         public static final int CTRLTYPE_CTRL_FORBID_OPEN_STROBE = CTRLTYPE_CTRL_ALARM_SUBSYSTEM_ACTIVE_SET+1; //禁止设备端开闸(对应结构体NET_CTRL_FORBID_OPEN_STROBE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6372:         public static final int CTRLTYPE_CTRL_OPEN_STROBE = CTRLTYPE_CTRL_FORBID_OPEN_STROBE+1; //开启道闸(对应结构体 NET_CTRL_OPEN_STROBE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6373:         public static final int CTRLTYPE_CTRL_TALKING_REFUSE = CTRLTYPE_CTRL_OPEN_STROBE+1; //对讲拒绝接听(对应结构体NET_CTRL_TALKING_REFUSE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6374:         public static final int CTRLTYPE_CTRL_ARMED_EX = CTRLTYPE_CTRL_TALKING_REFUSE+1; //布撤防操作(对应结构体CTRL_ARM_DISARM_PARAM_EX),对CTRL_ARM_DISARM_PARAM升级，建议用这个
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6375:         public static final int CTRLTYPE_CTRL_NET_KEYBOARD =400;//网络键盘控制(对应结构体NET_CTRL_NET_KEYBOARD)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6376:         public static final int CTRLTYPE_CTRL_AIRCONDITION_OPEN = CTRLTYPE_CTRL_NET_KEYBOARD+1; //打开空调(对应结构体NET_CTRL_OPEN_AIRCONDITION)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6377:         public static final int CTRLTYPE_CTRL_AIRCONDITION_CLOSE = CTRLTYPE_CTRL_AIRCONDITION_OPEN+1; //关闭空调(对应结构体NET_CTRL_CLOSE_AIRCONDITION)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6378:         public static final int CTRLTYPE_CTRL_AIRCONDITION_SET_TEMPERATURE = CTRLTYPE_CTRL_AIRCONDITION_CLOSE+1; //设定空调温度(对应结构体NET_CTRL_SET_TEMPERATURE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6379:         public static final int CTRLTYPE_CTRL_AIRCONDITION_ADJUST_TEMPERATURE = CTRLTYPE_CTRL_AIRCONDITION_SET_TEMPERATURE+1; //调节空调温度(对应结构体NET_CTRL_ADJUST_TEMPERATURE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6380:         public static final int CTRLTYPE_CTRL_AIRCONDITION_SETMODE = CTRLTYPE_CTRL_AIRCONDITION_ADJUST_TEMPERATURE+1; //设置空调工作模式(对应结构体NET_CTRL_ADJUST_TEMPERATURE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6381:         public static final int CTRLTYPE_CTRL_AIRCONDITION_SETWINDMODE = CTRLTYPE_CTRL_AIRCONDITION_SETMODE+1; //设置空调送风模式(对应结构体NET_CTRL_AIRCONDITION_SETMODE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6382:         public static final int CTRLTYPE_CTRL_RESTOREDEFAULT_EX  = CTRLTYPE_CTRL_AIRCONDITION_SETWINDMODE+1;//恢复设备的默认设置新协议(对应结构体 NET_CTRL_RESTORE_DEFAULT )
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6385:         public static final int CTRLTYPE_CTRL_NOTIFY_EVENT = CTRLTYPE_CTRL_RESTOREDEFAULT_EX+1; //向设备发送事件(对应结构体NET_NOTIFY_EVENT_DATA)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6386:         public static final int CTRLTYPE_CTRL_SILENT_ALARM_SET = CTRLTYPE_CTRL_NOTIFY_EVENT+1; //无声报警设置
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6387:         public static final int CTRLTYPE_CTRL_START_PLAYAUDIOEX = CTRLTYPE_CTRL_SILENT_ALARM_SET+1; //设备开始语音播报(对应结构体NET_CTRL_START_PLAYAUDIOEX)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6388:         public static final int CTRLTYPE_CTRL_STOP_PLAYAUDIOEX = CTRLTYPE_CTRL_START_PLAYAUDIOEX+1; //设备停止语音播报
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6389:         public static final int CTRLTYPE_CTRL_CLOSE_STROBE = CTRLTYPE_CTRL_STOP_PLAYAUDIOEX+1; //关闭道闸(对应结构体 NET_CTRL_CLOSE_STROBE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6390:         public static final int CTRLTYPE_CTRL_SET_ORDER_STATE = CTRLTYPE_CTRL_CLOSE_STROBE+1; //设置车位预定状态(对应结构体NET_CTRL_SET_ORDER_STATE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6391:         public static final int CTRLTYPE_CTRL_RECORDSET_INSERTEX = CTRLTYPE_CTRL_SET_ORDER_STATE+1; //添加记录，获得记录集编号(对应 NET_CTRL_RECORDSET_INSERT_PARAM )
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6392:         public static final int CTRLTYPE_CTRL_RECORDSET_UPDATEEX = CTRLTYPE_CTRL_RECORDSET_INSERTEX+1; //更新某记录集编号的记录(对应NET_CTRL_RECORDSET_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6393:         public static final int CTRLTYPE_CTRL_CAPTURE_FINGER_PRINT = CTRLTYPE_CTRL_RECORDSET_UPDATEEX+1; // 指纹采集(对应结构体NET_CTRL_CAPTURE_FINGER_PRINT)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6394:         public static final int CTRLTYPE_CTRL_ECK_LED_SET = CTRLTYPE_CTRL_CAPTURE_FINGER_PRINT+1; //停车场出入口控制器LED设置(对应结构体NET_CTRL_ECK_LED_SET_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6395:         public static final int CTRLTYPE_CTRL_ECK_IC_CARD_IMPORT = CTRLTYPE_CTRL_ECK_LED_SET+1; //智能停车系统出入口机IC卡信息导入(对应结构体NET_CTRL_ECK_IC_CARD_IMPORT_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6396:         public static final int CTRLTYPE_CTRL_ECK_SYNC_IC_CARD = CTRLTYPE_CTRL_ECK_IC_CARD_IMPORT+1; //智能停车系统出入口机IC卡信息同步指令，收到此指令后，设备删除原有IC卡信息(对应结构体NET_CTRL_ECK_SYNC_IC_CARD_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6397:         public static final int CTRLTYPE_CTRL_LOWRATEWPAN_REMOVE = CTRLTYPE_CTRL_ECK_SYNC_IC_CARD+1; //删除指定无线设备(对应结构体NET_CTRL_LOWRATEWPAN_REMOVE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6398:         public static final int CTRLTYPE_CTRL_LOWRATEWPAN_MODIFY = CTRLTYPE_CTRL_LOWRATEWPAN_REMOVE+1; //修改无线设备信息(对应结构体NET_CTRL_LOWRATEWPAN_MODIFY)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6399:         public static final int CTRLTYPE_CTRL_ECK_SET_PARK_INFO = CTRLTYPE_CTRL_LOWRATEWPAN_MODIFY+1; //智能停车系统出入口机设置车位信息(对应结构体NET_CTRL_ECK_SET_PARK_INFO_PARAM)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6400:         public static final int CTRLTYPE_CTRL_VTP_DISCONNECT = CTRLTYPE_CTRL_ECK_SET_PARK_INFO+1; //挂断视频电话(对应结构体NET_CTRL_VTP_DISCONNECT)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6401:         public static final int CTRLTYPE_CTRL_UPDATE_FILES = CTRLTYPE_CTRL_VTP_DISCONNECT+1; //远程投放多媒体文件更新(对应结构体NET_CTRL_UPDATE_FILES)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6402:         public static final int CTRLTYPE_CTRL_MATRIX_SAVE_SWITCH = CTRLTYPE_CTRL_UPDATE_FILES+1; //保存上下位矩阵输出关系(对应结构体NET_CTRL_MATRIX_SAVE_SWITCH)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6403:         public static final int CTRLTYPE_CTRL_MATRIX_RESTORE_SWITCH = CTRLTYPE_CTRL_MATRIX_SAVE_SWITCH+1; //恢复上下位矩阵输出关系(对应结构体NET_CTRL_MATRIX_RESTORE_SWITCH)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6404:         public static final int CTRLTYPE_CTRL_VTP_DIVERTACK = CTRLTYPE_CTRL_MATRIX_RESTORE_SWITCH+1; //呼叫转发响应(对应结构体NET_CTRL_VTP_DIVERTACK)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6405:         public static final int CTRLTYPE_CTRL_RAINBRUSH_MOVEONCE = CTRLTYPE_CTRL_VTP_DIVERTACK+1; //雨刷来回刷一次，雨刷模式配置为手动模式时有效(对应结构体NET_CTRL_RAINBRUSH_MOVEONCE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6406:         public static final int CTRLTYPE_CTRL_RAINBRUSH_MOVECONTINUOUSLY = CTRLTYPE_CTRL_RAINBRUSH_MOVEONCE+1; //雨刷来回循环刷，雨刷模式配置为手动模式时有效(对应结构体NET_CTRL_RAINBRUSH_MOVECONTINUOUSLY)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6407:         public static final int CTRLTYPE_CTRL_RAINBRUSH_STOPMOVE = CTRLTYPE_CTRL_RAINBRUSH_MOVECONTINUOUSLY+1; //雨刷停止刷，雨刷模式配置为手动模式时有效(对应结构体NET_CTRL_RAINBRUSH_STOPMOVE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6408:         public static final int CTRLTYPE_CTRL_ALARM_ACK = CTRLTYPE_CTRL_RAINBRUSH_STOPMOVE+1; //报警事件确认(对应结构体NET_CTRL_ALARM_ACK)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6410:         public static final int CTRLTYPE_CTRL_RECORDSET_IMPORT = CTRLTYPE_CTRL_ALARM_ACK + 1; // 批量导入记录集信息(对应 NET_CTRL_RECORDSET_PARAM )
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6411:         public static final int CTRLTYPE_CTRL_DELIVERY_FILE = CTRLTYPE_CTRL_RECORDSET_IMPORT + 1; // 向视频输出口投放视频和图片文件, 楼宇对讲使用，同一时间投放(对应 NET_CTRL_DELIVERY_FILE )
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6412:                                                                                     // 以下命令只在 CLIENT_ControlDeviceEx 上有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6413:         public static final int CTRLTYPE_CTRL_THERMO_GRAPHY_ENSHUTTER = 0x10000;//设置热成像快门启用/禁用,pInBuf= NET_IN_THERMO_EN_SHUTTER*, pOutBuf= NET_OUT_THERMO_EN_SHUTTER * 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6414:         public static final int CTRLTYPE_CTRL_RADIOMETRY_SETOSDMARK = CTRLTYPE_CTRL_THERMO_GRAPHY_ENSHUTTER+1; // 设置测温项的osd为高亮,pInBuf=NET_IN_RADIOMETRY_SETOSDMARK*,pOutBuf= NET_OUT_RADIOMETRY_SETOSDMARK * 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6415:         public static final int CTRLTYPE_CTRL_AUDIO_REC_START_NAME = CTRLTYPE_CTRL_RADIOMETRY_SETOSDMARK+1; // 开启音频录音并得到录音名,pInBuf = NET_IN_AUDIO_REC_MNG_NAME *, pOutBuf = NET_OUT_AUDIO_REC_MNG_NAME *
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6416:         public static final int CTRLTYPE_CTRL_AUDIO_REC_STOP_NAME = CTRLTYPE_CTRL_AUDIO_REC_START_NAME+1; // 关闭音频录音并返回文件名称,pInBuf = NET_IN_AUDIO_REC_MNG_NAME *, pOutBuf = NET_OUT_AUDIO_REC_MNG_NAME *
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6417:         public static final int CTRLTYPE_CTRL_SNAP_MNG_SNAP_SHOT = CTRLTYPE_CTRL_AUDIO_REC_STOP_NAME+1; // 即时抓图(又名手动抓图),pInBuf  =NET_IN_SNAP_MNG_SHOT *, pOutBuf = NET_OUT_SNAP_MNG_SHOT *
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6418:         public static final int CTRLTYPE_CTRL_LOG_STOP = CTRLTYPE_CTRL_SNAP_MNG_SNAP_SHOT+1; // 强制同步缓存数据到数据库并关闭数据库,pInBuf = NET_IN_LOG_MNG_CTRL *, pOutBuf = NET_OUT_LOG_MNG_CTRL *
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6419:         public static final int CTRLTYPE_CTRL_LOG_RESUME = CTRLTYPE_CTRL_LOG_STOP+1; // 恢复数据库,pInBuf = NET_IN_LOG_MNG_CTRL *, pOutBuf = NET_OUT_LOG_MNG_CTRL *
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6952:     // 雨刷来回循环刷,雨刷模式配置为手动模式时有效(对应命令 CTRLTYPE_CTRL_RAINBRUSH_MOVECONTINUOUSLY)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6965:     // 雨刷停止刷,雨刷模式配置为手动模式时有效(对应命令 CTRLTYPE_CTRL_RAINBRUSH_STOPMOVE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:6977:     // 雨刷来回刷一次，雨刷模式配置为手动模式时有效(对应命令 CTRLTYPE_CTRL_RAINBRUSH_MOVEONCE)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8501:     // 门禁开门 CLIENT_ControlDevice接口的 CTRLTYPE_CTRL_ACCESS_OPEN 命令参数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8502:     public static class NET_CTRL_ACCESS_OPEN extends Structure {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8507:     	public int			emOpenDoorType;                			  // 开门方式, 参考 EM_OPEN_DOOR_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8509:         public NET_CTRL_ACCESS_OPEN() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8515:     public static class EM_OPEN_DOOR_TYPE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8517:     	public static final int EM_OPEN_DOOR_TYPE_UNKNOWN = 0;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8518:     	public static final int EM_OPEN_DOOR_TYPE_REMOTE = 1;			// 远程开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8519:     	public static final int EM_OPEN_DOOR_TYPE_LOCAL_PASSWORD = 2;	// 本地密码开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8520:     	public static final int EM_OPEN_DOOR_TYPE_LOCAL_CARD = 3;		// 本地刷卡开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8521:     	public static final int EM_OPEN_DOOR_TYPE_LOCAL_BUTTON = 4;		// 本地按钮开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8524:     // 门禁关门CLIENT_ControlDevice接口的 CTRLTYPE_CTRL_ACCESS_CLOSE 命令参数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8525:     public static class NET_CTRL_ACCESS_CLOSE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8530:         public NET_CTRL_ACCESS_CLOSE() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8556:     // 开启道闸参数(对应 CTRLTYPE_CTRL_OPEN_STROBE 命令)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8568:     // 关闭道闸参数(对应  CTRLTYPE_CTRL_CLOSE_STROBE 命令)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8608:     	public int							nCtrlTypeCount;									// 道闸控制方式个数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8609:     	public int[]    					emCtrlType = new int[NET_CFG_MAX_CTRLTYPE_NUM];  // 道闸控制方式, 详见NET_EM_CFG_TRAFFICSTROBE_CTRTYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8615:     	public int							emCtrlTypeOnDisconnect;							// 平台IP与设备断开连接后，设备采用的开闸方式, 详见NET_EM_CFG_TRAFFICSTROBE_CTRTYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:8623:     // 报警状态 (对应   CTRLTYPE_TRIGGER_ALARM_OUT 命令)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9346:     public static class FIND_RECORD_ACCESSCTLCARDREC_CONDITION_EX extends Structure {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9354:         public FIND_RECORD_ACCESSCTLCARDREC_ORDER[]   stuOrders = 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9355:         							   (FIND_RECORD_ACCESSCTLCARDREC_ORDER[])new FIND_RECORD_ACCESSCTLCARDREC_ORDER().toArray(MAX_ORDER_NUMBER);	// 规则数组
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9357:         public FIND_RECORD_ACCESSCTLCARDREC_CONDITION_EX() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9363:     public static class FIND_RECORD_ACCESSCTLCARDREC_ORDER extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9365:     	public int					emField;												// 排序字段, 对应枚举 EM_RECORD_ACCESSCTLCARDREC_ORDER_FIELD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9371:     public static class EM_RECORD_ACCESSCTLCARDREC_ORDER_FIELD extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9373:     	public static final int EM_RECORD_ACCESSCTLCARDREC_ORDER_FIELD_UNKNOWN = 0;			// 未知
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9374:     	public static final int EM_RECORD_ACCESSCTLCARDREC_ORDER_FIELD_RECNO = 1;			// 记录集编号
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9375:         public static final int EM_RECORD_ACCESSCTLCARDREC_ORDER_FIELD_CREATETIME = 2;		// 创建时间
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9387:     public static class NET_ACCESS_DOOROPEN_METHOD extends Structure {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9388:         public static final int NET_ACCESS_DOOROPEN_METHOD_UNKNOWN = 0;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9389:         public static final int NET_ACCESS_DOOROPEN_METHOD_PWD_ONLY = 1;                    				// 密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9390:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD = 2;                        				// 刷卡开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9391:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_FIRST = 3;                  				// 先刷卡后密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9392:         public static final int NET_ACCESS_DOOROPEN_METHOD_PWD_FIRST = 4;                   				// 先密码后刷卡开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9393:         public static final int NET_ACCESS_DOOROPEN_METHOD_REMOTE = 5;                      				// 远程开锁,如通过室内机或者平台对门口机开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9394:         public static final int NET_ACCESS_DOOROPEN_METHOD_BUTTON = 6;                      				// 开锁按钮进行开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9395:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT = 7;                 				// 指纹开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9396:         public static final int NET_ACCESS_DOOROPEN_METHOD_PWD_CARD_FINGERPRINT = 8;        				// 密码+刷卡+指纹组合开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9397:         public static final int NET_ACCESS_DOOROPEN_METHOD_PWD_FINGERPRINT = 10;	        				// 密码+指纹组合开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9398:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_FINGERPRINT = 11;	       					// 刷卡+指纹组合开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9399:         public static final int NET_ACCESS_DOOROPEN_METHOD_PERSONS = 12;                					// 多人开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9400:         public static final int NET_ACCESS_DOOROPEN_METHOD_KEY = 13;                    					// 钥匙开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9401:         public static final int NET_ACCESS_DOOROPEN_METHOD_COERCE_PWD = 14;             					// 胁迫密码开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9402:         public static final int NET_ACCESS_DOOROPEN_METHOD_QRCODE = 15;                     				// 二维码开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9403:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACE_RECOGNITION = 16;       					// 人脸识别开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9404:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD = 18;                				    // 人证对比
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9405:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD_AND_IDCARD = 19;	    				// 身份证+ 人证比对
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9406:         public static final int NET_ACCESS_DOOROPEN_METHOD_BLUETOOTH = 20;									// 蓝牙开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9407:         public static final int NET_ACCESS_DOOROPEN_METHOD_CUSTOM_PASSWORD = 21;        					// 个性化密码开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9408:         public static final int  NET_ACCESS_DOOROPEN_METHOD_USERID_AND_PWD = 22;         					// UserID+密码
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9409:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACE_AND_PWD = 23;           					// 人脸+密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9410:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_PWD = 24;    					// 指纹+密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9411:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_FACE = 25;   					// 指纹+人脸开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9412:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FACE = 26;          					// 刷卡+人脸开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9413:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACE_OR_PWD = 27;            					// 人脸或密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9414:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_PWD = 28;     					// 指纹或密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9415:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_FACE = 29;    					// 指纹或人脸开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9416:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FACE = 30;           					// 刷卡或人脸开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9417:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT = 31;    					// 刷卡或指纹开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9418:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_AND_FACE_AND_PWD = 32;             	// 指纹+人脸+密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9419:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FACE_AND_PWD = 33;                      // 刷卡+人脸+密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9420:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FINGERPRINT_AND_PWD = 34;               // 刷卡+指纹+密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9421:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_AND_PWD_AND_FACE = 35;                      // 卡+指纹+人脸组合开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9422:         public static final int NET_ACCESS_DOOROPEN_METHOD_FINGERPRINT_OR_FACE_OR_PWD = 36;                 // 指纹或人脸或密码
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9423:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FACE_OR_PWD = 37;                        // 卡或人脸或密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9424:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT_OR_FACE = 38;                // 卡或指纹或人脸开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9425:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_AND_FINGERPRINT_AND_FACE_AND_PWD = 39;      // 卡+指纹+人脸+密码组合开锁 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9426:         public static final int NET_ACCESS_DOOROPEN_METHOD_CARD_OR_FINGERPRINT_OR_FACE_OR_PWD     = 40;     // 卡或指纹或人脸或密码开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9427:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACEIPCARDANDIDCARD_OR_CARD_OR_FACE    = 41;     // (身份证+人证比对)或 刷卡 或 人脸
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9428:         public static final int NET_ACCESS_DOOROPEN_METHOD_FACEIDCARD_OR_CARD_OR_FACE = 42;                 // 人证比对 或 刷卡(二维码) 或 人脸
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9432:     public static class NET_ACCESSCTLCARD_TYPE {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9433:         public static final int NET_ACCESSCTLCARD_TYPE_UNKNOWN = -1;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9434:         public static final int NET_ACCESSCTLCARD_TYPE_GENERAL = 0;                     // 一般卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9435:         public static final int NET_ACCESSCTLCARD_TYPE_VIP     = 1;                     // VIP卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9436:         public static final int NET_ACCESSCTLCARD_TYPE_GUEST   = 2;                     // 来宾卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9437:         public static final int NET_ACCESSCTLCARD_TYPE_PATROL  = 3;                     // 巡逻卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9438:         public static final int NET_ACCESSCTLCARD_TYPE_BLACKLIST = 4;                   // 黑名单卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9439:         public static final int NET_ACCESSCTLCARD_TYPE_CORCE	= 5;                    // 胁迫卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9440:         public static final int NET_ACCESSCTLCARD_TYPE_POLLING  = 6;                    // 巡检卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9441:         public static final int NET_ACCESSCTLCARD_TYPE_MOTHERCARD = 0xff;           	// 母卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9445:     public static class NET_RECORDSET_ACCESS_CTL_CARDREC extends Structure {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9452:         public int    				emMethod;                 				// 开门方式 NET_ACCESS_DOOROPEN_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9453:         public int             		nDoor;                                  // 门号,即CFG_CMD_ACCESS_EVENT配置CFG_ACCESS_EVENT_INFO的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9459:         public int       			emCardType;                 			// 卡类型 NET_ACCESSCTLCARD_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9489:         public int   				emDirection;               				 		// 开门方向, 参考  NET_ENUM_DIRECTION_ACCESS_CTL
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9495:         public NET_RECORDSET_ACCESS_CTL_CARDREC() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9512:     public static class NET_ENUM_DIRECTION_ACCESS_CTL extends Structure {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9524:         public static final int NET_RECORD_ACCESSCTLCARD = 4;  					 // 门禁卡,查询条件对应 FIND_RECORD_ACCESSCTLCARD_CONDITION 结构体,记录信息对应 NET_RECORDSET_ACCESS_CTL_CARD 结构体
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9525:         public static final int NET_RECORD_ACCESSCTLPWD = 5;      				 // 门禁密码,查询条件对应 FIND_RECORD_ACCESSCTLPWD_CONDITION 结构体,记录信息对应 NET_RECORDSET_ACCESS_CTL_PWD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9526:         public static final int NET_RECORD_ACCESSCTLCARDREC = 6; 				 // 门禁出入记录（必须同时按卡号和时间段查询,建议用 NET_RECORD_ACCESSCTLCARDREC_EX 查询）,查询条件对应 FIND_RECORD_ACCESSCTLCARDREC_CONDITION 结构体,记录信息对应 NET_RECORDSET_ACCESS_CTL_CARDREC 结构体 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9527:         public static final int NET_RECORD_ACCESSCTLHOLIDAY = 7; 				 // 假日记录集,查询条件对应 FIND_RECORD_ACCESSCTLHOLIDAY_CONDITION 结构体,记录信息对应 NET_RECORDSET_HOLIDAY 结构体
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9536:         public static final int NET_RECORD_ACCESSCTLCARDREC_EX = 16; 			 // 门禁出入记录(可选择部分条件查询,建议替代NET_RECORD_ACCESSCTLCARDREC),查询条件对应 FIND_RECORD_ACCESSCTLCARDREC_CONDITION_EX 结构体,记录信息对应 NET_RECORDSET_ACCESS_CTL_CARDREC 结构体
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9540:         public static final int NET_RECORD_ACCESSQRCODE = 20;  					 // 开门二维码记录集,记录信息对应 NET_RECORD_ACCESSQRCODE_INFO结构体
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:9541:         public static final int NET_RECORD_ACCESS_BLUETOOTH = 22;				 // 蓝牙开门记录集, 查询条件对应 FIND_RECORD_ACCESS_BLUETOOTH_INFO_CONDITION 结构体, 记录信息对应 NET_RECORD_ACCESS_BLUETOOTH_INFO 结构体
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10604: 	    public int  				emCtrlType;         // 视频输出控制方式,见 EM_VIDEO_OUT_CTRL_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10605: 	    public int              	nChannel;           // 视频输出逻辑通道号, emCtrlType为EM_VIDEO_OUT_CTRL_CHANNEL时有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10606: 	    public String            	pszCompositeID;     // 拼接屏ID, emCtrlType为EM_VIDEO_OUT_CTRL_COMPOSITE_ID时有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10729: 	// CLIENT_ControlDevice接口的 CTRLTYPE_CTRL_EJECT_BURNER、CTRLTYPE_CTRL_CLOSE_BURNER 等 命令参数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10925: 	// 门禁事件 ALARM_ACCESS_CTL_EVENT
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10926: 	public static class ALARM_ACCESS_CTL_EVENT_INFO extends Structure {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10931: 	    public int   					emEventType;                        // 门禁事件类型 参考 NET_ACCESS_CTL_EVENT_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10933: 	    public int      				emCardType;                         // 卡类型, 参考 NET_ACCESSCTLCARD_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10934: 	    public int   					emOpenMethod;                       // 开门方式, 参考 NET_ACCESS_DOOROPEN_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10967: 	    public int					     emStatus;		                	// 卡状态     NET_ACCESSCTLCARD_STATE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10973: 		public ALARM_ACCESS_CTL_EVENT_INFO() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:10979: 			return "ALARM_ACCESS_CTL_EVENT_INFO [dwSize=" + dwSize + ", nDoor="
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11021: 	// CLIENT_ControlDevice 接口的 NET_CTRL_CLEAR_ALARM 命令参数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11042: 	// CLIENT_ControlDevice接口的 CTRLTYPE_CTRL_START_ALARMBELL / CTRLTYPE_CTRL_STOP_ALARMBELL命令参数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11514: 	public static class FIND_RECORD_ACCESSCTLCARD_CONDITION extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11524: 	    public FIND_RECORD_ACCESSCTLCARD_CONDITION() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11530: 	public static class NET_RECORDSET_ACCESS_CTL_CARD extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11537: 	    public int       			  emStatus;                 					   // 卡状态   NET_ACCESSCTLCARD_STATE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11538: 	    public int        			  emType;                        			       // 卡类型   NET_ACCESSCTLCARD_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11541: 	    public int[]              	  sznDoors = new int[NET_MAX_DOOR_NUM];            // 有权限的门序号,即CFG_CMD_ACCESS_EVENT配置的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11543: 	    public int[]             	  sznTimeSectionNo = new int[NET_MAX_TIMESECTION_NUM];  // 开门时间段索引,即CFG_ACCESS_TIMESCHEDULE_INFO的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11548: 	    public NET_ACCESSCTLCARD_FINGERPRINT_PACKET stuFingerPrintInfo;			   	   // 下发指纹数据信息，仅为兼容性保留，请使用 stuFingerPrintInfoEx, 如果使用，内部的 pPacketData，请初始化
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11554: 	    public NET_ACCESSCTLCARD_FINGERPRINT_PACKET_EX     stuFingerPrintInfoEx;	   // 指纹数据信息, 如果使用，内部的 pPacketData，请初始化
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11564: 		public int[]             	  nNewDoors = new int[MAX_ACCESSDOOR_NUM];         // 有权限的门序号,即CFG_CMD_ACCESS_EVENT配置的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11566: 		public int[]             	  nNewTimeSectionNo = new int[MAX_ACCESSDOOR_NUM]; // 开门时间段索引,即CFG_ACCESS_TIMESCHEDULE_INFO的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11569: 		public int[]				  arSpecialDaysSchedule = new int[MAX_ACCESSDOOR_NUM];// 假日计划标识// 缺点：目前方案只支持一卡刷一个设备。
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11572: 		public FLOOR_NO[]             szFloorNoArr = (FLOOR_NO[])new FLOOR_NO().toArray(MAX_ACCESS_FLOOR_NUM);   // 楼层号
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11574: 		public NET_RECORDSET_ACCESS_CTL_CARD() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11585: 	public static class NET_ACCESSCTLCARD_STATE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11587: 	    public static final int NET_ACCESSCTLCARD_STATE_UNKNOWN = -1;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11588: 	    public static final int NET_ACCESSCTLCARD_STATE_NORMAL = 0;                 // 正常
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11589: 	    public static final int NET_ACCESSCTLCARD_STATE_LOSE   = 0x01;              // 挂失
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11590: 	    public static final int NET_ACCESSCTLCARD_STATE_LOGOFF = 0x02;              // 注销
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11591: 	    public static final int NET_ACCESSCTLCARD_STATE_FREEZE = 0x04;              // 冻结
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11592: 	    public static final int NET_ACCESSCTLCARD_STATE_ARREARAGE = 0x08;           // 欠费
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11593: 	    public static final int NET_ACCESSCTLCARD_STATE_OVERDUE = 0x10;             // 逾期
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11594: 	    public static final int NET_ACCESSCTLCARD_STATE_PREARREARAGE = 0x20;        // 预欠费(还是可以开门,但有语音提示)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11598: 	public static class NET_ACCESSCTLCARD_FINGERPRINT_PACKET extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11605: 	    public NET_ACCESSCTLCARD_FINGERPRINT_PACKET() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11611: 	public static class NET_ACCESSCTLCARD_FINGERPRINT_PACKET_EX extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11823: 	// CLIENT_ControlDevice 接口的 CTRLTYPE_CTRL_START_VIDEO_ANALYSE 命令参数, 开始视频智能分析
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:11834: 	// CLIENT_ControlDevice 接口的 CTRLTYPE_CTRL_STOP_VIDEO_ANALYSE 命令参数, 停止视频智能分析
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12193: 	public static class FIND_RECORD_ACCESSCTLPWD_CONDITION extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12198: 	    public FIND_RECORD_ACCESSCTLPWD_CONDITION() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12204: 	public static class NET_RECORDSET_ACCESS_CTL_PWD extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12210: 	    public byte[]            	  szDoorOpenPwd = new byte[NET_MAX_CARDPWD_LEN];      // 开门密码
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12213: 	    public int[]             	  sznDoors = new int[NET_MAX_DOOR_NUM];               // 有权限的门序号,即 CFG_CMD_ACCESS_EVENT 配置CFG_ACCESS_EVENT_INFO的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12219: 	    public int[]                  nNewDoors = new int[MAX_ACCESSDOOR_NUM];            // 有权限的门序号,即 CFG_CMD_ACCESS_EVENT 配置的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12221: 	    public int[]             	  nNewTimeSectionNo = new int[MAX_ACCESSDOOR_NUM];    // 开门时间段索引,即 CFG_ACCESS_TIMESCHEDULE_INFO 的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12226: 	    public NET_RECORDSET_ACCESS_CTL_PWD() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12232: 	public static class NET_RECORD_ACCESSQRCODE_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12242: 	    public NET_RECORD_ACCESSQRCODE_INFO(){
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12504: 	// 向视频输出口投放视频和图片文件, CLIENT_ControlDevice接口的 CTRLTYPE_CTRL_DELIVERY_FILE 命令参数 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:12545: 	// CLIENT_ControlDevice接口的 CTRLTYPE_CTRL_START_PLAYAUDIO 命令参数
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:14354: 		public static final int NET_EM_CFG_ACCESS_POINT = 1600;         		  // 用于WiFi服务端配置(热点功能), 对应结构体 NET_NETAPP_ACCESSPOINT
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:14404: 		public static final int NET_EM_CFG_ACCESSCTL_BLACKLIST = 3900;      	  // 门禁黑名单报警配置，对应结构体 NET_CFG_ACCESSCTL_BLACKLIST
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:14405: 		public static final int NET_EM_CFG_ACCESSCTL_BLACKLIST_LINK = 3901; 	  // 门禁黑名单报警联动配置,对应结构体 NET_CFG_ALARM_MSG_HANDLE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:14406: 		public static final int  NET_EM_CFG_ACCESSCTL_SPECIALDAY_GROUP = 3902;    // 门禁节假日组配置, 对应结构体 NET_CFG_ACCESSCTL_SPECIALDAY_GROUP_INFO
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:14407: 		public static final int NET_EM_CFG_ACCESSCTL_SPECIALDAYS_SCHEDULE = 3903; // 门禁节假日计划配置, 对应结构体 NET_CFG_ACCESSCTL_SPECIALDAYS_SCHEDULE_INFO
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15196: 		public NET_TIME_EX				stuAccessTime;											// 访问时间，时间不精确仅供参考
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15221: 	// 事件类型 EVENT_IVS_ACCESS_CTL (门禁事件)对应数据块描述信息
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15222: 	public static class DEV_EVENT_ACCESS_CTL_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15232: 		public int   					emEventType;                        					// 门禁事件类型, 参考 NET_ACCESS_CTL_EVENT_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15234: 		public int      				emCardType;                         					// 卡类型, 参考 NET_ACCESSCTLCARD_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15235: 		public int  					emOpenMethod;                       					// 开门方式, 参考 NET_ACCESS_DOOROPEN_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15281: 	public static class NET_ACCESS_CTL_EVENT_TYPE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15283: 	    public static final int NET_ACCESS_CTL_EVENT_UNKNOWN = 0;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15284: 	    public static final int NET_ACCESS_CTL_EVENT_ENTRY = 1;                          // 进门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:15285: 	    public static final int NET_ACCESS_CTL_EVENT_EXIT = 2;                           // 出门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16280: 	// 指纹采集(对应 CTRLTYPE_CTRL_CAPTURE_FINGER_PRINT 命令)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16293: 	public static class ALARM_ACCESS_CTL_STATUS_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16298: 	    public int  				emStatus;              			 // 门禁状态, 对应   NET_ACCESS_CTL_STATUS_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16301: 	    public ALARM_ACCESS_CTL_STATUS_INFO() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16307: 	public static class NET_ACCESS_CTL_STATUS_TYPE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16309: 	    public static final int NET_ACCESS_CTL_STATUS_TYPE_UNKNOWN = 0;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16310: 	    public static final int NET_ACCESS_CTL_STATUS_TYPE_OPEN = 1;                    // 开门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16311: 	    public static final int NET_ACCESS_CTL_STATUS_TYPE_CLOSE = 2;                   // 关门
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16312: 	    public static final int NET_ACCESS_CTL_STATUS_TYPE_ABNORMAL = 3;                // 异常
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16332: 	// 即时抓图(又名手动抓图)入参, 对应命令 CTRLTYPE_CTRL_SNAP_MNG_SNAP_SHOT
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16344: 	// 即时抓图(又名手动抓图)出参, 对应命令 CTRLTYPE_CTRL_SNAP_MNG_SNAP_SHOT
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16777: 	public static class CFG_ACCESS_EVENT_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16780: 		public int   			 	emState;									// 门禁状态, 参考 CFG_ACCESS_STATE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16781: 		public int     				emMode;										// 门禁模式, 参考  CFG_ACCESS_MODE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16786: 		public byte                 abDoorOpenMethod;
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16806: 	    public int					emDoorOpenMethod;							// 开门方式, 参考  CFG_DOOR_OPEN_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16809: 	    public int					nOpenAlwaysTimeIndex;						// 常开时间段, 值为CFG_ACCESS_TIMESCHEDULE_INFO配置的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16810: 	    public int                  nCloseAlwaysTimeIndex;          			// 常关时间段, 值为CFG_ACCESS_TIMESCHEDULE_INFO配置的数组下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16816: 	    public CFG_DOOROPEN_TIMESECTION_WEEK_DAY[]	stuDoorTimeSectionArr = 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16817: 	    										    (CFG_DOOROPEN_TIMESECTION_WEEK_DAY[])new CFG_DOOROPEN_TIMESECTION_WEEK_DAY().toArray(WEEK_DAY_NUM);// 分时段开门信息
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16819: 		public CFG_ACCESS_FIRSTENTER_INFO stuFirstEnterInfo;					// 首卡开门信息
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16840: 		public int		 		 	emAccessProtocol;							// 门禁协议, 参考  CFG_EM_ACCESS_PROTOCOL
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16841: 		public int	  				emProtocolType;								// 参考 CFG_EM_SERIAL_PROTOCOL_TYPE, 串口协议下的具体协议功能,当emAccessProtocol为CFG_EM_ACCESS_PROTOCOL_SERIAL时有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16842: 		public CFG_ACCESS_CONTROL_UDP_INFO	  stuAccessControlUdpInfo;  		// 门禁udp开锁信息,当emAccessProtocol为CFG_EM_ACCESS_PROTOCOL_REMOTE时有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16843: 		public int				    nEntranceLockChannel;						// 门禁控制器下的子通道,当emAccessProtocol为CFG_EM_ACCESS_PROTOCOL_REMOTE时有效
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16854: 	public static class CFG_DOOROPEN_TIMESECTION_WEEK_DAY extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16857: 		 public CFG_DOOROPEN_TIMESECTION_INFO[]	stuDoorTimeSection = 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16858: 				 							    (CFG_DOOROPEN_TIMESECTION_INFO[])new CFG_DOOROPEN_TIMESECTION_INFO().toArray(MAX_DOOR_TIME_SECTION);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16862: 	public static class CFG_DOOROPEN_TIMESECTION_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16865: 		public int						emDoorOpenMethod;				// 开门模式, 参考 CFG_DOOR_OPEN_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16869: 	public static class CFG_ACCESS_FIRSTENTER_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16872: 		public int						emStatus;						// 首卡权限验证通过后的门禁状态, 参考 CFG_ACCESS_FIRSTENTER_STATUS
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16873: 		public int						nTimeIndex;						// 需要首卡验证的时间段, 值为  配置 "AccessTimeSchedule"的门禁刷卡时间段的下标
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16894: 	    public int                	 	nTimeSechdule;                  // 对应CFG_CMD_ACCESSTIMESCHEDULE配置的索引
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16898: 	public static class CFG_ACCESS_CONTROL_UDP_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16900: 		public byte[]					szAddress = new byte[CFG_MAX_ACCESS_CONTROL_ADDRESS_LEN];// 地址
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16905: 	public static class CFG_ACCESS_STATE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16907: 		public static final int ACCESS_STATE_NORMAL = 0;                                        // 普通
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16908: 		public static final int ACCESS_STATE_CLOSEALWAYS = 1;                                   // 常关
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16909: 		public static final int ACCESS_STATE_OPENALWAYS = 2;                                    // 常开 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16910: 	                                                                							// 常开常闭状态下,Opendoor开门无效.
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16911: 		public static final int ACCESS_STATE_NOPERSONNC = 3;                                    // 无人状态常闭
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16912: 		public static final int ACCESS_STATE_NOPERSONNO = 4;                                    // 无人状态常开
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16916: 	public static class CFG_ACCESS_MODE extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16918: 		public static final int ACCESS_MODE_HANDPROTECTED = 0;                                  // 防夹模式
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16919: 		public static final int ACCESS_MODE_SAFEROOM = 1;                                       // 防护房间模式    
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16920: 		public static final int ACCESS_MODE_OTHER = 2;                                          // 其它
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16968: 	public static class CFG_ACCESS_FIRSTENTER_STATUS extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16970: 		public static final int ACCESS_FIRSTENTER_STATUS_UNKNOWN = 0;									// 未知状态
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16971: 		public static final int ACCESS_FIRSTENTER_STATUS_KEEPOPEN = 1;									// KeepOpen-首卡权限验证通过后，门保持常开
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16972: 		public static final int ACCESS_FIRSTENTER_STATUS_NORMAL = 2;									// Normal-首卡权限验证通过后，其他用户才能刷卡(指纹等)验证通过
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16976: 	public static class CFG_EM_ACCESS_PROTOCOL extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16978: 		public static final int CFG_EM_ACCESS_PROTOCOL_UNKNOWN = 0;										// 未知
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16979: 		public static final int CFG_EM_ACCESS_PROTOCOL_LOCAL = 1;										// 本机开关量控制
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16980: 		public static final int CFG_EM_ACCESS_PROTOCOL_SERIAL = 2;										// 串口协议
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16981: 		public static final int CFG_EM_ACCESS_PROTOCOL_REMOTE = 3;										// 门禁udp开锁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:16989: 		public static final int CFG_EM_SERIAL_PROTOCOL_TYPE_DAHUA_ACCESS_485 = 1;						// 门禁485
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17025: 	public static class NET_EM_ACCESS_CTL_MANAGER extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17027: 	    public static final int NET_EM_ACCESS_CTL_MANAGER_ADDDEVICE = 0;            // 添加单个分控器, 对应结构体 pstInParam = NET_IN_ACCESS_CTL_MANAGER_ADDDEVICE, pstOutParam = NET_OUT_ACCESS_CTL_MANAGER_ADDDEVICE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17028: 	    public static final int NET_EM_ACCESS_CTL_MANAGER_MODIFYDEVICE = 1;         // 修改分控器名称, 对应结构体 pstInParam = NET_IN_ACCESS_CTL_MANAGER_MODIFYDEVICE, pstOutParam = NET_OUT_ACCESS_CTL_MANAGER_MODIFYDEVICE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17029: 	    public static final int NET_EM_ACCESS_CTL_MANAGER_REMOVEDEVICE = 2;         // 删除分控器, 对应结构体 pstInParam = NET_IN_ACCESS_CTL_MANAGER_REMOVEDEVICE, pstOutParam = NET_OUT_ACCESS_CTL_MANAGER_REMOVEDEVICE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17030: 	    public static final int NET_EM_ACCESS_CTL_GETSUBCONTROLLER_INFO = 3;        // 获取分控器信息, 对应结构体 pstInParam = NET_IN_GET_SUB_CONTROLLER_INFO, pstOutParam = NET_OUT_GET_SUB_CONTROLLER_INFO
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17031: 	    public static final int NET_EM_ACCESS_CTL_GETSUBCONTROLLER_STATE = 4;       // 获取分控器状态, 对应结构体 pstInParam = NET_IN_GET_SUB_CONTROLLER_STATE, pstOutParam = NET_OUT_GET_SUB_CONTROLLER_STATE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17032: 	    public static final int NET_EM_ACCESS_CTL_SET_REPEAT_ENTERROUTE = 5;        // 设置反潜路径信息, 对应结构体 pstInparam = NET_IN_SET_REPEAT_ENTERROUTE, pstOutParam = NET_OUT_SET_REPEAT_ENTERROUTE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17033: 	    public static final int NET_EM_ACCESS_CTL_GET_REPEAT_ENTERROUTE = 6;        // 获取反潜路径信息, 对应结构体 pstInparam = NET_IN_GET_REPEAT_ENTERROUTE, pstOutParam = NET_OUT_GET_REPEAT_ENTERROUTE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17034: 	    public static final int NET_EM_ACCESS_CTL_SET_ABLOCK_ROUTE = 7;             // 设置AB互锁路径信息, 对应结构体 pstInparam = NET_IN_SET_ABLOCK_ROUTE, pstOutParam = NET_OUT_SET_ABLOCK_ROUTE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17035: 	    public static final int NET_EM_ACCESS_CTL_GET_ABLOCK_ROUTE = 8;             // 获取AB互锁路径信息, 对应结构体 pstInparam = NET_IN_GET_ABLOCK_ROUTE, pstOutParam = NET_OUT_GET_ABLOCK_ROUTE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17036: 	    public static final int NET_EM_ACCESS_CTL_GET_LOGSTATUS = 9;                // 获取日志同步状态,对应结构体 pstInparam = NET_IN_GET_LOGSTATUS, pstOutParam = NET_OUT_GET_LOGSTATUS 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17037: 	    public static final int NET_EM_ACCESS_CTL_SYNCHRO_OFFLINE_LOG = 10;         // 同步离线日志, 对应结构体 pstInparam = NET_IN_SYNCHRO_OFFLINE_LOG, pstOutParam = NET_OUT_SYNCHRO_OFFLINE_LOG 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17038: 	    public static final int NET_EM_ACCESS_CTL_SYNCHRO_TIME = 11;                // 同步分控器时间,对应结构体 pstInparam = NET_IN_SYNCHRO_CONTROLLER_TIME, pstOutParam = NET_OUT_SYNCHRO_CONTROLLER_TIME 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17039: 	    public static final int NET_EM_ACCESS_CTL_SET_QRCODEDECODE_INFO = 12;       // 设置二维码的解码信息, 对应结构体 pstInparam = NET_IN_SET_QRCODE_DECODE_INFO, pstOutParam = NET_OUT_SET_QRCODE_DECODE_INFO 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17046: 	    public int[]               nSubControllerID = new int[MAX_ACCESSSUBCONTROLLER_NUM];  // 分控器ID, 取值范围 -1~255, -1:获取所有,0:获取本地,1~255:外置分控
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17059: 	    									 (NET_SUB_CONTROLLER_INFO[])new NET_SUB_CONTROLLER_INFO().toArray(MAX_ACCESSSUBCONTROLLER_NUM);  // 分控器信息
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17072: 	    public int         	 			 emProperty;                                     		 // 门禁单双向, 对应枚举 NET_ACCESS_PROPERTY
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17077: 	    							     (NET_CARDREAD_INFO[])new NET_CARDREAD_INFO().toArray(MAX_ACCESSDOOR_NUM);   // 门对应的读卡器号
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17087: 										 (READ_ID[])new READ_ID().toArray(MAX_ACCESS_READER_NUM);// 读卡器ID
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17098: 	public static class NET_ACCESS_PROPERTY extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17100: 	    public static final int NET_EM_ACCESS_PROPERTY_UNKNOWN = 0;                             // 未知
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17101: 	    public static final int NET_EM_ACCESS_PROPERTY_BIDIRECT = 1;                            // 双向门禁
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17102: 	    public static final int NET_EM_ACCESS_PROPERTY_UNIDIRECT = 2;                           // 单向门径
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17106: 	// 门禁刷卡时间段，对此配置，通道号实际表示配置索引, 对应命令  CFG_CMD_ACCESSTIMESCHEDULE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:17107: 	public static class CFG_ACCESS_TIMESCHEDULE_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18078: 	public static class FIND_RECORD_ACCESS_BLUETOOTH_INFO_CONDITION extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18083: 		public FIND_RECORD_ACCESS_BLUETOOTH_INFO_CONDITION() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18089: 	public static class NET_RECORD_ACCESS_BLUETOOTH_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18098: 		public NET_RECORD_ACCESS_BLUETOOTH_INFO() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18108: 		public byte[]                       szCredentialHolder = new byte[16];                    				// 身份拥有者(与AccessControlCard记录集中的UserID概念一致)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18142: 	    public int			   				 emType;                       // 开门类型, 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18145: 	    public int          				 emCardType;                   // 卡类型, 参考 NET_ACCESSCTLCARD_TYPE
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18152: 	    public int			    			emType;                        // 开门类型, 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18162: 	    public int			    			emType;                        // 开门类型, 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18170: 	public static class NET_ACCESS_METHOD extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18172: 	    public static final int NET_ACCESS_METHOD_UNKNOWN = 0;             // 未知
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18173: 	    public static final int NET_ACCESS_METHOD_CARD = 1;                // 卡
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18174: 	    public static final int NET_ACCESS_METHOD_PASSWORD = 2;            // 密码
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18175: 	    public static final int NET_ACCESS_METHOD_FINGERPRINT = 3;         // 指纹 
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18193: 		public int							emType;												// 开锁方式类型, 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18194: 		public byte[]						szUserID = new byte[MAX_COMMON_STRING_16];			// 用户ID(非AccessControlCard记录集中的UserID概念)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18217: 		public int							emType;												// 开锁方式类型, 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18219: 		public byte[]						szUserID = new byte[MAX_COMMON_STRING_16];			// 用户ID(非AccessControlCard记录集中的UserID概念)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18242: 		public byte[]                       szCredentialHolder = new byte[16];                  // 身份拥有者(与AccessControlCard记录集中的UserID概念一致)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18243: 		public int			    			emType;                                     		// 开门类型,unknown 表示全部, 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18389: 	public static class ALARM_ACCESS_CARD_OPERATE_INFO extends Structure    
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18392: 	    public int   				    emActionType;                    			 // 门禁卡数据操作类型, 参考  NET_ACCESS_ACTION_TYPE       
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18397: 	    public int						emType;                          			 // 用户类型， 参考 NET_ACCESS_METHOD
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18402: 	    public ALARM_ACCESS_CARD_OPERATE_INFO() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18409: 	public static class NET_ACCESS_ACTION_TYPE extends Structure      
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18411: 	    public static final int NET_ACCESS_ACTION_TYPE_UNKNOWN  = 0;    			// 未知       
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18412: 	    public static final int NET_ACCESS_ACTION_TYPE_INSERT   = 1;   			 	// 插入       
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18413: 	    public static final int NET_ACCESS_ACTION_TYPE_UPDATE   = 2;    			// 更新       
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18414: 	  	public static final int NET_ACCESS_ACTION_TYPE_REMOVE   = 3;    			// 删除       
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18418: 	public static class ALARM_ACCESS_CTL_NOT_CLOSE_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18427: 	    public ALARM_ACCESS_CTL_NOT_CLOSE_INFO() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18433: 	public static class ALARM_ACCESS_CTL_BREAK_IN_INFO extends Structure
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18441: 		public ALARM_ACCESS_CTL_BREAK_IN_INFO() {
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18922:     // 设备控制(param内存由用户申请释放)  emType对应 枚举 CtrlType
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18923:     public boolean CLIENT_ControlDevice(LLong lLoginID, int emType, Pointer param, int waittime);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18925:     // 设备控制扩展接口，兼容 CLIENT_ControlDevice (pInBuf, pOutBuf内存由用户申请释放)
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18926:     // emType的取值为CtrlType中的值
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:18927:     public boolean CLIENT_ControlDeviceEx(LLong lLoginID, int emType, Pointer pInBuf, Pointer pOutBuf, int nWaitTime);
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:19439:     * @param emtype 门禁控制器操作类型, 对应 枚举{@link NET_EM_ACCESS_CTL_MANAGER}
+C:\Users\jkara\Desktop\dahua-sdk\src\main\java\com\netsdk\lib\NetSDKLib.java:19445:    public boolean CLIENT_OperateAccessControlManager(LLong lLoginID, int emtype, Pointer pstInParam, Pointer pstOutParam, int nWaitTime);

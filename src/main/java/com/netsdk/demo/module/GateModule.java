@@ -47,6 +47,39 @@ public class GateModule {
             m_hAttachHandle.setValue(0);
         }
     }
+
+	/**
+	 * Remote open a door channel.
+	 * @param doorIndex door index, starts from 0
+	 * @param remoteUserId remote user id, optional
+	 * @return true on success
+	 */
+	public static boolean openDoor(int doorIndex, String remoteUserId) {
+		NET_CTRL_ACCESS_OPEN open = new NET_CTRL_ACCESS_OPEN();
+		open.nChannelID = doorIndex;
+		open.szTargetID = null;
+		open.emOpenDoorType = NetSDKLib.EM_OPEN_DOOR_TYPE.EM_OPEN_DOOR_TYPE_REMOTE;
+
+		if (remoteUserId != null && !remoteUserId.trim().isEmpty()) {
+			byte[] userBytes = remoteUserId.getBytes();
+			int copyLen = Math.min(userBytes.length, open.szUserID.length);
+			System.arraycopy(userBytes, 0, open.szUserID, 0, copyLen);
+		}
+
+		open.write();
+		boolean bRet = LoginModule.netsdk.CLIENT_ControlDevice(
+				LoginModule.m_hLoginHandle,
+				NetSDKLib.CtrlType.CTRLTYPE_CTRL_ACCESS_OPEN,
+				open.getPointer(),
+				5000);
+		open.read();
+
+		if (!bRet) {
+			System.err.println("openDoor failed." + ToolKits.getErrorCodePrint());
+		}
+
+		return bRet;
+	}
     
     //////////////////////////////////////  卡信息的增、删、改、清空  ////////////////////////////////////////
     
